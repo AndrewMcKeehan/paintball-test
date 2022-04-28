@@ -6,20 +6,35 @@ public class Gun : MonoBehaviour
     public float damage = 10f;
     public float range = 100f;
 
-    float ammo = 30f;
+    int ammo = 1000;
 
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
+
+	public Transform barrel;
+	public LineRenderer line;
+	private float lineDuration = 0.1f;
+	private float lineTimer = 0f;
 
     
 
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
+		if (lineTimer > 0)
+		{
+			lineTimer -= Time.deltaTime;
+			if (lineTimer <= 0)
+			{
+				line.SetPosition(0, Vector3.zero);
+				line.SetPosition(1, Vector3.zero);
+			}
+		}
     }
 
     void Shoot()
@@ -41,8 +56,12 @@ public class Gun : MonoBehaviour
                 target.TakeDamage(damage);
             } else
             {
-                // splat()
+				SplatMesher.instance.AddSplat(hit);
             }
+
+			line.SetPosition(0, barrel.position);
+			line.SetPosition(1, hit.point);
+			lineTimer = lineDuration;
         }
 
     }

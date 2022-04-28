@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SplatMesher : MonoBehaviour
 {
+	public static SplatMesher instance;
+
     private Mesh mesh;
     private MeshFilter filter;
     private GameObject helper;
@@ -22,6 +24,16 @@ public class SplatMesher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		if (instance == null)
+		{
+			instance = this;
+		}
+		else
+		{
+			Destroy(this);
+		}
+		
+
         mesh = new Mesh();
         Debug.Log(mesh.isReadable);
         filter = GetComponentInChildren<MeshFilter>();
@@ -44,6 +56,7 @@ public class SplatMesher : MonoBehaviour
 
 	private void Update()
 	{
+		/*
         if (Input.GetMouseButtonDown(0)) 
         {
             RaycastHit hit;
@@ -54,6 +67,7 @@ public class SplatMesher : MonoBehaviour
                 AddSplat(hit);
 			}
         }
+		*/
 	}
 
     void InitializeArrays()
@@ -106,7 +120,7 @@ public class SplatMesher : MonoBehaviour
         numSplats = 0;
 	}
 
-    void AddSplat(RaycastHit hit)
+    public void AddSplat(RaycastHit hit)
 	{
         Transform t = helper.transform;
         t.position = hit.point;
