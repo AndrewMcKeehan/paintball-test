@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502658, g: 0.37139305, b: 0.49600944, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -417,7 +417,7 @@ PrefabInstance:
     - target: {fileID: 3629913092318417704, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a8aee4b57daeb6e4cb91a4ab9004f29f, type: 2}
+      objectReference: {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
 --- !u!1 &653260035
@@ -853,7 +853,7 @@ PrefabInstance:
     - target: {fileID: 3629913092318417704, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a8aee4b57daeb6e4cb91a4ab9004f29f, type: 2}
+      objectReference: {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
 --- !u!1 &1584850170
@@ -6267,7 +6267,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: af2498417e6fedb4eaef99b499f8ef45, type: 2}
+  - {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6355,7 +6355,7 @@ PrefabInstance:
     - target: {fileID: 3629913092318417704, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a8aee4b57daeb6e4cb91a4ab9004f29f, type: 2}
+      objectReference: {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
 --- !u!4 &4174956155774532705 stripped
