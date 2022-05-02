@@ -417,7 +417,11 @@ PrefabInstance:
     - target: {fileID: 3629913092318417704, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+<<<<<<< Updated upstream
       objectReference: {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
+=======
+      objectReference: {fileID: 2100000, guid: da123317e56807a4c99beab6870295de, type: 2}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
 --- !u!1 &653260035
@@ -853,7 +857,11 @@ PrefabInstance:
     - target: {fileID: 3629913092318417704, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+<<<<<<< Updated upstream
       objectReference: {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
+=======
+      objectReference: {fileID: 2100000, guid: da123317e56807a4c99beab6870295de, type: 2}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
 --- !u!1 &1584850170
@@ -6355,7 +6363,11 @@ PrefabInstance:
     - target: {fileID: 3629913092318417704, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+<<<<<<< Updated upstream
       objectReference: {fileID: 2100000, guid: 4f226b074a516a4429711a35294a18f3, type: 2}
+=======
+      objectReference: {fileID: 2100000, guid: da123317e56807a4c99beab6870295de, type: 2}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4fe9e40e88f10478852dac7fb43c4f, type: 3}
 --- !u!4 &4174956155774532705 stripped
